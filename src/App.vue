@@ -1,17 +1,21 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <h1> Classe 53 </h1>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MioComponente></MioComponente>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import MioComponente from './components/MioComponente.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    MioComponente
   }
 }
 </script>
